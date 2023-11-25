@@ -1,6 +1,6 @@
 ///////////////////////////////////////////
 // FE 23, Inlämning 2-Andréa Jandergren  //
-// Sten, sax, påse                       //
+// Sten sax påse                       ///
 ///////////////////////////////////////////
 
 const btnForm = document.querySelector('button');
