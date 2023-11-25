@@ -1,0 +1,49 @@
+<!-- FE 23, Inlämning 2-Andréa Jandergren -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämning 2- Sten, sax, påse</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <!-- Formulär för användarnamn och skickaknapp -->
+    <form>
+        <input type="text" id="inputName" placeholder="Ange namn" >
+        <button class="btn-submit">Skicka!</button>
+    </form>
+
+   <!--  Knappar med spelets olika val -->
+    <div class="container-div">
+        <button class="button-image"><img class="image-width" id="stoneSelected" src="img/stone.png" alt="Stone"></button>
+        <button class="button-image"><img class= "image-width" id="scissorSelected" src="img/scissors.png" alt="Scissor"></button>
+        <button class="button-image"><img class="image-width" id="paperSelected" src="img/file.png" alt="Paper"></button>
+    </div>
+    <h2 class="showRound"></h2>
+
+   <!--  Användarens och datorns poäng -->
+    <div class="div-user-numb">
+        <h3 class="userNumb"></h3>
+        <h3 class="computerNumb"></h3>
+    </div>
+
+    <!-- Användarens och datorns val -->
+    <div class="container-div-choice">
+        <div class="container-div-userChoice">
+            <img class="image-width-choice" src="data:," alt>
+        </div>
+        <div class="container-div-computerChoice">
+            <img class="image-width-choice" src="data:," alt>
+        </div>
+    </div>
+
+    <!-- Visar vem som vann respektive runda -->
+    <div class="div-position">
+        <h4></h4>
+    </div>
+</body>
+</html>
